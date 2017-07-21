@@ -29,6 +29,11 @@
                 Clicked="OnCall"
                 IsEnabled="false"
                 Text="Call" />
+            <Button
+                x:Name="callHistoryButton"
+                Clicked="OnCallHistory"
+                IsEnabled="false"
+                Text="Call History" />
         </StackLayout>
     </ContentPage.Content>
 
